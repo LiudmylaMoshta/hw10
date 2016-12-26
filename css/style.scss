@@ -1,0 +1,118 @@
+@import "../lib/bootstrap-sass-3.3.7/assets/stylesheets/_bootstrap.scss";
+
+html{
+ font-size: 12px;
+
+}
+body{
+    ul,li{
+        list-style-type: none;
+    }
+
+}
+#header{
+    .fontawesome{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        right: 0;
+        li {
+            display: inline;
+        }
+    }
+}
+.section-welcome{
+    background: #898686;
+
+    .menu{
+        background: transparent;
+        list-style-type: none;
+        margin: 0;
+        color:#ffffff;
+
+        .li-menu-stutic{
+            display: inline-block;
+            //width: 100px;
+            a {
+                border-right: 1px solid #ffffff;
+                text-align: center;
+                padding: 15px 10px;
+            }
+            &:hover{
+                .menu-hover{
+                    display: block;
+                    position: absolute;
+                    list-style-type: none;
+                    border: 1px solid #ffffff;
+                    background: #ffffff;
+                }
+            }
+            a{
+                width: 134px;
+                display: block;
+                color:#ffffff;
+            }
+            .menu-hover{
+                display: none;
+                border: 1px solid #ffffff;
+                background: #ffffff;
+                li{
+                    a{
+                        color: #898686;
+                    }
+                }
+            }
+        }
+    }
+}
+.content{
+    margin-bottom: 30px;
+    .content-title{
+        background: #61a70a;
+        color:#ffffff;
+        .bg-red{
+            content: '';
+            width: 74px;
+            height: 74px;
+            background: #f32b34;
+        }
+    }
+
+}
+
+.content-col{
+    .content-row{
+        .col-content-col{
+            text-align: center;
+            .content-title-news {
+                display: block;
+                background: #0070a1;
+                color: #ffffff;
+            }
+            .content-title-Xvariations{
+                display: block;
+                background: #d23139;
+                color: #ffffff;
+            }
+           .content-title-calendar{
+               display: block;
+               background: #fdcd05;
+               color: #545051 ;
+           }
+            .bg{
+                background: #e6e5e5;
+            }
+        }
+    }
+}
+
+#footer{
+    background: #acaaaa;
+}
+
+
+
+
+
+
