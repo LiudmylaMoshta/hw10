@@ -11,31 +11,34 @@ body{
 
 }
 #header{
-    display: inline-block;
-    .link-top{
-        .fontawesome{
-            display: inline-block;
-            text-align: right;
-        }
-        .linc{
-            text-align: right;
+    .fontawesome{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        right: 0;
+        li {
+            display: inline;
         }
     }
 }
 .section-welcome{
+    background: #898686;
+
     .menu{
+        background: transparent;
         list-style-type: none;
         margin: 0;
-        background: #898686;
         color:#ffffff;
-        padding: 10px;
+
         .li-menu-stutic{
             display: inline-block;
-            width: 100px;
-            border-right: 1px solid #ffffff;
-            text-align: center;
-            margin-right: 20px;
-            padding-right: 30px;
+            //width: 100px;
+            a {
+                border-right: 1px solid #ffffff;
+                text-align: center;
+                padding: 15px 10px;
+            }
             &:hover{
                 .menu-hover{
                     display: block;
@@ -111,57 +114,5 @@ body{
 
 
 
-
-
-
-//.navbar-default-blog {
-//    margin-bottom: 0;
-//    .container-fluid{
-//        .navbar-collapse-blog{
-//            .btn-default-blog{
-//                background-color: #f6f6f6;
-//            }
-//            .navbar-right-blog{
-//                width: 462px;
-//                font: 400 18px/36px"P T Sans";
-//                li{
-//                    a{
-//                        padding-left: 6px;
-//                        color: #1a54e7;
-//                    }
-//
-//                }
-//
-//            }
-//        }
-//        .navbar-header-blog{
-//            .brand-blog{
-//                background: #1a54e7;
-//                color: white;
-//                font:400 24px/36px "P T Sans";
-//                padding-bottom: 20px;
-//                //color: transparent;
-//                /* Text style for "template" */
-//                //font-weight: 700;
-//            }
-//        }
-//    }
-//}
-//.section-welcome{
-//    height: 100vh;
-//    background: url("../images/bg.png") no-repeat 100%;
-//    background-size: cover;
-//    text-align: center;
-//    margin: 0 auto;
-//    img{
-//        padding-top: 217px;
-//    }
-//    h1{
-//        /* Base text style */
-//        color: white;
-//        font:400 48px/60px "P T Serif";
-//    }
-//}
-//
 
 

@@ -5812,43 +5812,44 @@ html {
 body ul, body li {
   list-style-type: none; }
 
-#header {
-  display: inline-block; }
-  #header .link-top .fontawesome {
-    display: inline-block;
-    text-align: right; }
-  #header .link-top .linc {
-    text-align: right; }
-
-.section-welcome .menu {
+#header .fontawesome {
   list-style-type: none;
   margin: 0;
-  background: #898686;
-  color: #ffffff;
-  padding: 10px; }
-  .section-welcome .menu .li-menu-stutic {
-    display: inline-block;
-    width: 100px;
-    border-right: 1px solid #ffffff;
-    text-align: center;
-    margin-right: 20px;
-    padding-right: 30px; }
-    .section-welcome .menu .li-menu-stutic:hover .menu-hover {
-      display: block;
-      position: absolute;
-      list-style-type: none;
-      border: 1px solid #ffffff;
-      background: #ffffff; }
-    .section-welcome .menu .li-menu-stutic a {
-      width: 134px;
-      display: block;
-      color: #ffffff; }
-    .section-welcome .menu .li-menu-stutic .menu-hover {
-      display: none;
-      border: 1px solid #ffffff;
-      background: #ffffff; }
-      .section-welcome .menu .li-menu-stutic .menu-hover li a {
-        color: #898686; }
+  padding: 0;
+  position: relative;
+  right: 0; }
+  #header .fontawesome li {
+    display: inline; }
+
+.section-welcome {
+  background: #898686; }
+  .section-welcome .menu {
+    background: transparent;
+    list-style-type: none;
+    margin: 0;
+    color: #ffffff; }
+    .section-welcome .menu .li-menu-stutic {
+      display: inline-block; }
+      .section-welcome .menu .li-menu-stutic a {
+        border-right: 1px solid #ffffff;
+        text-align: center;
+        padding: 15px 10px; }
+      .section-welcome .menu .li-menu-stutic:hover .menu-hover {
+        display: block;
+        position: absolute;
+        list-style-type: none;
+        border: 1px solid #ffffff;
+        background: #ffffff; }
+      .section-welcome .menu .li-menu-stutic a {
+        width: 134px;
+        display: block;
+        color: #ffffff; }
+      .section-welcome .menu .li-menu-stutic .menu-hover {
+        display: none;
+        border: 1px solid #ffffff;
+        background: #ffffff; }
+        .section-welcome .menu .li-menu-stutic .menu-hover li a {
+          color: #898686; }
 
 .content {
   margin-bottom: 30px; }
